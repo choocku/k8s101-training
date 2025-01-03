@@ -4,5 +4,9 @@
 
 `kubectl get nodes`
 
+## Get more info about nodes in summarize
+
+`kubectl get node -o wide`
+
 ## Get some info about the node.
 `kubectl describe node`

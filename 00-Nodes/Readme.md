@@ -1,6 +1,6 @@
 # Get nodes information
 
-## Get a list of all the installed nodes. Using Docker Desktop, there should be only one.
+## Get a list of all the installed nodes.
 
 `kubectl get nodes`
 

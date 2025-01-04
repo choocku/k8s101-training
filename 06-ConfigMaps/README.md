@@ -7,6 +7,7 @@ kubectl get cm
 kubectl describe configmap cm-example
 ```
 Let's output the same information in YAML format
+
 `kubectl get configmap cm-example -o YAML`
 
 # Deploy the pod

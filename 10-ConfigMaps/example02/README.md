@@ -4,11 +4,11 @@
 # Get the ConfigMap info
 ```
 kubectl get cm
-kubectl describe configmap config-map
+kubectl describe configmap app-config
 ```
 Let's output the same information in YAML format
 
-`kubectl get configmap config-map -o YAML`
+`kubectl get configmap app-config -o YAML`
 
 # Deploy the pod
 `kubectl apply -f pod-definition.yaml`

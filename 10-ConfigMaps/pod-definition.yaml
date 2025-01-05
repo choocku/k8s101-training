@@ -5,7 +5,7 @@ metadata:
 spec:
  containers:
  - name: simple-webapp-color
-   image: simple-webapp-color
+   image: mmumshad/simple-webapp-color
    ports:
    - containerPort: 8080
    envFrom:

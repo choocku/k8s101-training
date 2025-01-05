@@ -1,7 +1,7 @@
 # How do we create deployment?
 
 ```
-    apiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp-deployment

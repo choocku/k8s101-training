@@ -1,4 +1,4 @@
-# L26-03
+## ClusterIP
 
 ## Deploy the service
 

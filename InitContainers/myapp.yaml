@@ -21,8 +21,11 @@ spec:
   initContainers:
   - name: install
     image: busybox
-    command: ['sh', '-c', 'git clone https://github.com/nginx/nginx.git ; cp nginx/docs/html/index.html /work-dir/index.html ; ']
-    
+    command: 
+    - wget
+    - "-O"
+    - "/work-dir/index.html"
+    - http://info.cern.ch
     volumeMounts:
     - name: workdir
       mountPath: "/work-dir"

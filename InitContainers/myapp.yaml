@@ -25,7 +25,7 @@ spec:
     - wget
     - "-O"
     - "/work-dir/index.html"
-    - http://info.cern.ch
+    - https://www.home.cern/science/computing/birth-web
     volumeMounts:
     - name: workdir
       mountPath: "/work-dir"

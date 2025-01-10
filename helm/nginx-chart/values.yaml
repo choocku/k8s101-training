@@ -7,9 +7,9 @@ image:
 
 service:
   name: nginx-service
-  type: ClusterIP
+  type: NodePort
   port: 80
-  targetPort: 9000
+  targetPort: 80
 
 env:
   name: dev
